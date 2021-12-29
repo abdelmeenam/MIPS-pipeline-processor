@@ -1,0 +1,24 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.13 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/REG_FILE.vhd" in Library work.
+Entity <reg_file> compiled.
+ERROR:HDLParsers:808 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/REG_FILE.vhd" Line 56. to_integer can not have such operands in this context.
+ERROR:HDLParsers:808 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/REG_FILE.vhd" Line 62. to_integer can not have such operands in this context.
+ERROR:HDLParsers:808 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/REG_FILE.vhd" Line 63. to_integer can not have such operands in this context.
+CPU : 0.04 / 0.18 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 175708 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

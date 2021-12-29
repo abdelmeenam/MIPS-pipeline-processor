@@ -1,0 +1,15 @@
+ISim log file
+Running: C:\Users\pc\OneDrive - Faculty of Engineering_Benha (Benha University)\Desktop\salma\pipeline project final file\pipeline project final file\PIPELINE\pipeline_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/pipeline_test_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+
+** Failure:arguments of overloaded 'or' operator are not of the same length
+User(VHDL) Code Called Simulation Stop
+In process PIPELINE.vhd:347 
+ 
+INFO: Simulator is stopped.

@@ -1,0 +1,63 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/pipeline_test_isim_beh.exe -prj C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/pipeline_test_beh.prj work.pipeline_test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/WB.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/SIGN_EXTEND.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/RD_RT_MUX.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PC_ADDER.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PC.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/MUX_CONTROL_HAZ.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/MUX_32.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/MAIN_CONTROL_UNIT.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/JUMP_SH.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/instructionmemory.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/ID_EX_REG.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/HAZZARD_UNIT.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/F_ID_REG.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/FORWARD_A_MUX.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/FORWARDING_UNIT.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/EX_MEM_REG.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/DATA_MEM.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/../../../../ALU.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PIPELINE.vhd" into library work
+Parsing VHDL file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/pipeline_test.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PIPELINE.vhd" Line 365: <registerfile> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PIPELINE.vhd" Line 378: <signout> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PIPELINE.vhd" Line 409: <alu_control_unit> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PIPELINE.vhd" Line 365. Instance registerfile is unbound
+WARNING:Simulator:648 - "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PIPELINE.vhd" Line 378. Instance signout is unbound
+WARNING:Simulator:648 - "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PIPELINE.vhd" Line 409. Instance alu_control_unit is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity PC_ADDER [pc_adder_default]
+Compiling architecture behavioral of entity MUX_32 [mux_32_default]
+Compiling architecture behavioral of entity instructionmemory [instructionmemory_default]
+Compiling architecture behavioral of entity F_ID_REG [f_id_reg_default]
+Compiling architecture behavioral of entity MAIN_CONTROL_UNIT [main_control_unit_default]
+Compiling architecture behavioral of entity SIGN_EXTEND [sign_extend_default]
+Compiling architecture behavioral of entity JUMP_SH [jump_sh_default]
+Compiling architecture behavioral of entity MUX_CONTROL_HAZ [mux_control_haz_default]
+Compiling architecture behavioral of entity HAZZARD_UNIT [hazzard_unit_default]
+Compiling architecture behavioral of entity ID_EX_REG [id_ex_reg_default]
+Compiling architecture behavioral of entity RD_RT_MUX [rd_rt_mux_default]
+Compiling architecture behavioral of entity FORWARDING_UNIT [forwarding_unit_default]
+Compiling architecture behavioral of entity FORWARD_A_MUX [forward_a_mux_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity EX_MEM_REG [ex_mem_reg_default]
+Compiling architecture behavioral of entity DATA_MEM [data_mem_default]
+Compiling architecture behavioral of entity WB [wb_default]
+Compiling architecture behavioral of entity PIPELINE [pipeline_default]
+Compiling architecture behavior of entity pipeline_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 43 VHDL Units
+Built simulation executable C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/pipeline_test_isim_beh.exe
+Fuse Memory Usage: 36940 KB
+Fuse CPU Usage: 515 ms

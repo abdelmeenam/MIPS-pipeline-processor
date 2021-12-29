@@ -1,0 +1,34 @@
+Command line:
+   PIPELINE_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54179
+
+Wed Dec 29 13:56:13 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5156.09 Meg
+
+ Total Signals          : 238
+ Total Nets             : 2470
+ Total Signal Drivers   : 111
+ Total Blocks           : 26
+ Total Primitive Blocks : 25
+ Total Processes        : 86
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 2848
+
+** Failure:arguments of overloaded 'or' operator are not of the same length
+User(VHDL) Code Called Simulation Stop
+In process PIPELINE.vhd:347 
+ 
+
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 5156.09 Meg
+
+Wed Dec 29 13:56:21 2021
+

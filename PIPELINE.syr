@@ -1,0 +1,132 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: PIPELINE.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PIPELINE.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PIPELINE"
+Output Format                      : NGC
+Target Device                      : Automotive 9500XL
+
+---- Source Options
+Top Module Name                    : PIPELINE
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PC.vhd" in Library work.
+Architecture behavioral of Entity pc is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PC_ADDER.vhd" in Library work.
+Architecture behavioral of Entity pc_adder is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/MUX_32.vhd" in Library work.
+Architecture behavioral of Entity mux_32 is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/instructionmemory.vhd" in Library work.
+Architecture behavioral of Entity instructionmemory is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/F_ID_REG.vhd" in Library work.
+Architecture behavioral of Entity f_id_reg is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/MAIN_CONTROL_UNIT.vhd" in Library work.
+Architecture behavioral of Entity main_control_unit is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/SIGN_EXTEND.vhd" in Library work.
+Architecture behavioral of Entity sign_extend is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/SHIFT.vhd" in Library work.
+Architecture behavioral of Entity shift is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/JUMP_SH.vhd" in Library work.
+Architecture behavioral of Entity jump_sh is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/MUX_CONTROL_HAZ.vhd" in Library work.
+Architecture behavioral of Entity mux_control_haz is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/HAZZARD_UNIT.vhd" in Library work.
+Architecture behavioral of Entity hazzard_unit is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/ID_EX_REG.vhd" in Library work.
+Architecture behavioral of Entity id_ex_reg is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/RD_RT_MUX.vhd" in Library work.
+Architecture behavioral of Entity rd_rt_mux is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/FORWARDING_UNIT.vhd" in Library work.
+Architecture behavioral of Entity forwarding_unit is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/FORWARD_A_MUX.vhd" in Library work.
+Architecture behavioral of Entity forward_a_mux is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/EX_MEM_REG.vhd" in Library work.
+Architecture behavioral of Entity ex_mem_reg is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/DATA_MEM.vhd" in Library work.
+Architecture behavioral of Entity data_mem is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/WB.vhd" in Library work.
+Architecture behavioral of Entity wb is up to date.
+Compiling vhdl file "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PIPELINE.vhd" in Library work.
+Architecture behavioral of Entity pipeline is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <PIPELINE> in library <work> (architecture <behavioral>).
+"C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/PIPELINE.vhd" line 344: In entity <PIPELINE>
+ERROR:Xst:2585 - Port <output> of instance <pc_4> does not exist in definition <PC_ADDER>. Please compare the definition of block <PC_ADDER> to its component declaration to detect the mismatch.
+--> 
+
+Total memory usage is 4498992 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

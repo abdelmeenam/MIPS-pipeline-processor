@@ -1,0 +1,41 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.11 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" in Library work.
+ERROR:HDLParsers:3011 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 36. End Identifier FORWARD_A_MUX does not match declaration, FORWARD_MUX.
+ERROR:HDLParsers:3010 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 38. Entity FORWARD_MUX does not exist.
+ERROR:HDLParsers:3312 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 40. Undefined symbol 'std_logic_vector'.
+ERROR:HDLParsers:1209 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 40. std_logic_vector: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 43. Undefined symbol 'X'.
+ERROR:HDLParsers:1209 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 43. X: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 43. Undefined symbol 'IN1'.
+ERROR:HDLParsers:1209 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 43. IN1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 43. Undefined symbol 'IN2'.
+ERROR:HDLParsers:1209 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 43. IN2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 43. Undefined symbol 'IN3'.
+ERROR:HDLParsers:1209 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 43. IN3: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 46. = can not have such operands in this context.
+ERROR:HDLParsers:3312 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 47. Undefined symbol 'TEMP'.
+ERROR:HDLParsers:808 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 48. = can not have such operands in this context.
+ERROR:HDLParsers:1209 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 49. TEMP: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 50. = can not have such operands in this context.
+WARNING:HDLParsers:1406 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 43. No sensitivity list and no wait in the process
+ERROR:HDLParsers:3312 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 57. Undefined symbol 'OUTPUT'.
+ERROR:HDLParsers:3312 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 57. Undefined symbol 'TEMP'.
+ERROR:HDLParsers:1209 - "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/FORWARD_A_MUX.vhd" Line 57. TEMP: Undefined symbol (last report in this block)
+CPU : 0.05 / 0.16 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 176092 kilobytes
+
+Number of errors   :   20 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/pc/OneDrive - Faculty of Engineering_Benha (Benha University)/Desktop/salma/pipeline project final file/pipeline project final file/PIPELINE/xst"
+elaborate
+-ifn PC_ADDER.prj
+-ifmt mixed

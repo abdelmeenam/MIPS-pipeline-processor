@@ -1,0 +1,4 @@
+set -tmpdir "./xst/projnav.tmp"
+elaborate
+-ifn MUX_CONTROL_HAZ.prj
+-ifmt mixed

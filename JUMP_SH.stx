@@ -1,0 +1,21 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.14 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/enjih/OneDrive/Desktop/New folder (4)/PIPELINE/JUMP_SH.vhd" in Library work.
+Architecture behavioral of Entity jump_sh is up to date.
+CPU : 0.06 / 0.20 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 176784 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
